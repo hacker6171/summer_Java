@@ -1,9 +1,15 @@
 public class ForLoopPractice {
-    public static void Print_Ten_Numbers()
+    public static void Nested_Loop_Sample(char sysmbol,int rows,int columns)
     {
-        for(int i=1;i<=10;i++)
+        for(int k=1;k<=rows;k++)
         {
-            System.out.println("Number "+i);
+            for(int i=1;i<=columns;i++)
+            {
+                System.out.print(sysmbol);
+        
+            }
+            System.out.println();
         }
+       
     }
 }
