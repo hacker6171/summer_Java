@@ -1,5 +1,5 @@
 class buildapps {
     public static void main(String[] args){
-        System.out.println("Welcome to app");
+        ForLoopPractice.Print_Ten_Numbers();
     }
 }
